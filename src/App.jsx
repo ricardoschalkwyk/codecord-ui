@@ -1,10 +1,10 @@
 import { Component } from "./components";
-import { Shell } from "./pages";
+import { Layout } from "./pages";
 
 function App() {
   return (
     <div>
-      <Shell />
+      <Layout />
       <Component />
     </div>
   );

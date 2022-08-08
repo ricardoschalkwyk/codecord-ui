@@ -1,3 +1,3 @@
-import Shell from "./Shell";
+import Layout from "./Layout";
 
-export { Shell };
+export { Layout };
