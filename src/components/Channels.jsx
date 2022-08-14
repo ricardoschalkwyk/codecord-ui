@@ -22,7 +22,7 @@ const categories = [
 
 const Channels = () => {
   return (
-    <div className="hidden h-screen w-[240px] flex-shrink-0 bg-discord-secondary  lg:block">
+    <div className="hidden h-screen w-[240px] flex-shrink-0 bg-discord-secondary lg:block">
       <div className="h-[48px] pt-3 text-center shadow-md">
         <span>Coding United</span>
       </div>
@@ -30,14 +30,16 @@ const Channels = () => {
       {categories.map((category) => (
         <div className="p-2" key={category.id}>
           <div className="pt-3 pb-1 opacity-50">
-            <span className="flex justify-between text-xs uppercase">
+            <div className="flex justify-between text-xs uppercase">
               <div className="flex">
-                {<ChevronDownIcon className="h-4 w-4" />}
+                <ChevronDownIcon className="h-4 w-4" />
                 {category.name}
               </div>
 
-              <div className="flex">{<PlusIcon className="h-4 w-4" />}</div>
-            </span>
+              <div className="flex">
+                <PlusIcon className="h-4 w-4" />
+              </div>
+            </div>
           </div>
 
           <div className="space-y-1">

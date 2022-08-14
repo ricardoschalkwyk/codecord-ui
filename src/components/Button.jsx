@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import clsx from "clsx";
 
-// This component is for a dianamic Button component.
+// This component is for a dynamic Button component.
 
 function Button({ className, children, onClick, type = "button" }) {
   return (
