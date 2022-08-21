@@ -7,6 +7,10 @@ import Chat from "./Chat";
 import Members from "./Members";
 import ServerItem from "./ServerItem";
 import AddAServer from "./AddAServer";
+import ChatInput from "./ChatInput";
+
+// Forms
+import { Input } from "./Form";
 
 export {
   Component,
@@ -18,4 +22,6 @@ export {
   Members,
   ServerItem,
   AddAServer,
+  ChatInput,
+  Input,
 };

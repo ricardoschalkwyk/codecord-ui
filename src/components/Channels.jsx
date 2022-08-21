@@ -5,7 +5,7 @@ import ChannelItem from "./ChannelItem";
 import { ChevronDownIcon, PlusIcon } from "@heroicons/react/solid";
 
 const textChannels = [
-  { id: 1, type: "text", name: "General" },
+  { id: 1, type: "text", name: "general" },
   { id: 2, type: "text", name: "Chill" },
   { id: 3, type: "text", name: "Ask Away" },
 ];
