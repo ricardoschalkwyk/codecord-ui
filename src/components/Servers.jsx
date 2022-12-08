@@ -52,7 +52,7 @@ const Servers = () => {
       </div>
 
       <div className="mb-2 flex justify-center">
-        <div className="h-[2px] w-8 rounded-sm bg-discord-primary"></div>
+        <div className="h-0.5 w-8 rounded-sm bg-discord-primary"></div>
       </div>
 
       <div className="mb-2 flex justify-center">

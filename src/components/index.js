@@ -8,6 +8,8 @@ import Members from "./Members";
 import ServerItem from "./ServerItem";
 import AddAServer from "./AddAServer";
 import ChatInput from "./ChatInput";
+import Messages from "./Messages";
+import Message from "./Message";
 
 // Forms
 import { Input } from "./Form";
@@ -24,4 +26,6 @@ export {
   AddAServer,
   ChatInput,
   Input,
+  Messages,
+  Message,
 };

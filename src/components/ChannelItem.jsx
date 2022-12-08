@@ -20,7 +20,7 @@ function ChannelItem({ channel }) {
   return (
     <Button
       className={clsx(
-        "group justify-between",
+        "group justify-between text-sm",
         isActive && "bg-discord-light-gray bg-opacity-60"
       )}
       onClick={activeClick}
