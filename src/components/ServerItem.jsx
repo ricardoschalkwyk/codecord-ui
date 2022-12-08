@@ -8,7 +8,7 @@ const ServerItem = ({ active, name = "", image, onClick }) => {
         <div
           className={clsx(
             "absolute -left-4 w-2 scale-0 rounded bg-white transition-all duration-200 group-hover:scale-100",
-            !active && "top-[14px] h-5",
+            !active && "top-3.5 h-5",
             active && "top-1 h-10 scale-100"
           )}
         ></div>

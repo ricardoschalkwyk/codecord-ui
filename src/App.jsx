@@ -1,11 +1,7 @@
 import { Layout } from "./pages";
 
 function App() {
-  return (
-    <div>
-      <Layout />
-    </div>
-  );
+  return <Layout />;
 }
 
 export default App;

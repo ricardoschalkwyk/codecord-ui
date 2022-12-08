@@ -9,8 +9,10 @@ const Main = () => {
   return (
     <div className="relative h-screen w-full bg-discord-primary lg:h-auto">
       <TopBar />
-      <Chat />
-      <Members />
+      <div className="flex h-screen pt-12">
+        <Chat />
+        <Members />
+      </div>
     </div>
   );
 };

@@ -10,7 +10,7 @@ const Input = ({ onChange, placeholder, type = "text", value = "" }) => {
         type={type}
         placeholder={placeholder}
         value={input}
-        className="w-full bg-discord-input text-discord-white placeholder:text-discord-placeholder focus:outline-none"
+        className="w-full bg-discord-input text-sm text-discord-white placeholder:text-discord-placeholder focus:outline-none"
         onChange={(e) => {
           setInput(e.target.value);
           onChange?.();
