@@ -18,7 +18,7 @@ const MemberIcon = ({ src }) => {
         </div>
       )}
       <div className="absolute -right-[3px] -bottom-[3px] flex h-4 w-4 items-center justify-center rounded-lg bg-discord-secondary group-hover:bg-discord-light-gray">
-        <div className="h-2.5 w-2.5 rounded-md bg-discord-green "></div>
+        <div className="h-2.5 w-2.5 rounded-md bg-discord-green"></div>
       </div>
     </div>
   );
