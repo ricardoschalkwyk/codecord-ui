@@ -9,7 +9,7 @@ function Button({ className, children, onClick, type = "button" }) {
     <button
       type={type}
       className={clsx(
-        "flex w-full items-center gap-2 rounded py-1.5 px-2 opacity-60 hover:bg-discord-light-gray hover:bg-opacity-60",
+        "group flex w-full items-center gap-2 rounded py-1.5 px-2 hover:bg-discord-light-gray",
         className
       )}
       onClick={(e) => {
