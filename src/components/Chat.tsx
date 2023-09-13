@@ -12,7 +12,7 @@ const Chat = () => {
       </div>
 
       <div className="absolute bottom-0 w-full pr-60">
-        <div className="bg-discord-primary p-4 pt-0 pb-6">
+        <div className="bg-discord-primary px-4 pb-6">
           <ChatInput />
         </div>
       </div>
