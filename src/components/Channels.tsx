@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { ChevronDownIcon, PlusIcon } from "@heroicons/react/solid";
 
 import ChannelItem from "./ChannelItem";
+import { UserProfileWidget } from ".";
 
 const textChannels = [
   { id: 1, type: "text", name: "general" },
@@ -23,7 +24,7 @@ const serverName = "Codecord's server";
 
 const Channels = () => {
   return (
-    <div className="hidden h-screen w-[240px] flex-shrink-0 bg-discord-secondary lg:block">
+    <div className="relative hidden h-screen w-[240px] flex-shrink-0 bg-discord-secondary lg:block">
       <div className="relative z-20 flex h-12 items-center bg-discord-secondary px-4 py-3 shadow transition-colors duration-200 hover:cursor-pointer hover:bg-discord-light-gray hover:bg-opacity-40">
         <span className="truncate text-sm font-bold">{serverName}</span>
       </div>
@@ -55,6 +56,8 @@ const Channels = () => {
           </div>
         ))}
       </div>
+
+      <UserProfileWidget />
     </div>
   );
 };

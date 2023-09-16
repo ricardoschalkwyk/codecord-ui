@@ -10,6 +10,7 @@ import AddAServer from "./AddAServer";
 import ChatInput from "./ChatInput";
 import Messages from "./Messages";
 import Message from "./Message";
+import UserProfileWidget from "./UserProfileWidget";
 
 // Forms
 import { Input } from "./Form";
@@ -22,6 +23,7 @@ export {
   TopBar,
   Chat,
   Members,
+  UserProfileWidget,
   ServerItem,
   AddAServer,
   ChatInput,
