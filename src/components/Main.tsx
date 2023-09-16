@@ -1,6 +1,3 @@
-import React from "react";
-import PropTypes from "prop-types";
-
 import TopBar from "./TopBar";
 import Chat from "./Chat";
 import Members from "./Members";
@@ -15,10 +12,6 @@ const Main = () => {
       </div>
     </div>
   );
-};
-
-Main.propTypes = {
-  children: PropTypes.node,
 };
 
 export default Main;
