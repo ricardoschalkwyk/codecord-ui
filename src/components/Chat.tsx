@@ -10,8 +10,9 @@ const Chat = () => {
           <Messages />
         </div>
       </div>
-      <div className="absolute bottom-0 w-full">
-        <div className="p-4 pb-6">
+
+      <div className="absolute bottom-0 w-full pr-60">
+        <div className="bg-discord-primary px-4 pb-6">
           <ChatInput />
         </div>
       </div>
