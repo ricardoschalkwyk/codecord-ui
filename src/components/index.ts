@@ -11,12 +11,14 @@ import ChatInput from "./ChatInput";
 import Messages from "./Messages";
 import Message from "./Message";
 import UserProfileWidget from "./UserProfileWidget";
+import DirectChat from "./DirectChat";
 
 // Forms
 import { Input } from "./Form";
 
 export {
   Component,
+  DirectChat,
   Servers,
   Channels,
   Main,
