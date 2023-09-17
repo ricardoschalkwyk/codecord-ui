@@ -1,4 +1,3 @@
-import React from "react";
 import MemberItem from "./MemberItem";
 
 const users = [
